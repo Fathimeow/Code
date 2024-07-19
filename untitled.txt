@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fbe9e7; /* Light pink */
+            color: #5d4037; /* Dark beige */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f48fb1; /* Pink */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff; /* White */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffccbc; /* Beige */
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5d4037; /* Dark beige */
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #f48fb1; /* Pink */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #ffffff; /* White */
+        }
+        .decorative {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .decorative img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fatima's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="decorative">
+            <img src="https://example.com/teddy_bear.png" alt="Teddy Bear">
+            <img src="https://example.com/strawberry.png" alt="Strawberry">
+        </div>
+        <p>I am a student striving to be better, aiming for Class Nation, and working hard to become a straight-A student.</p>
+        <div class="decorative">
+            <img src="https://example.com/teddy_bear.png" alt="Teddy Bear">
+            <img src="https://example.com/strawberry.png" alt="Strawberry">
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here you can list your projects or any work you're proud of.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via email at: <a href="mailto:fatima@example.com">fatima@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fatima. All rights reserved.</p>
+    </footer>
+</body>
+</html>
